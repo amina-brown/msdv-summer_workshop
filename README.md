@@ -1,12 +1,10 @@
-## Welcome to GitHub Pages
+## Projects from the Parsons MS Data Viz Summer Workshop
 
-You can use the [editor on GitHub](https://github.com/amina-brown/msdv-summer_workshop/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Click through the project to see the work completed throughout the 6 week course
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Projects
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Week 1 - [About Me](https://github.com/amina-brown/msdv-summer_workshop/blob/master/About%20Me/index.html)
 
 ```markdown
 Syntax highlighted code block

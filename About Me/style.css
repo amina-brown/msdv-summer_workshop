@@ -1,0 +1,42 @@
+* {
+    margin: auto auto; /*padding: 0;*/
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    color:#545479;
+    font-size: xx-large;
+}
+
+.bio-section {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 150px 500px;
+    grid-gap: 20px;
+    background-color: #F9F8FF ;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bio-section img{
+    max-width: 150px;
+}
+
+main {
+    width: 700px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #F1F1E6;
+    background-color: #545479;
+    text-indent: 20px;
+}

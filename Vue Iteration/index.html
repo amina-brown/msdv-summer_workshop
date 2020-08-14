@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+</head>
+<div id="app">
+    <div class="container">
+        <div class="card mt-5">
+            <h2 class="card-header">Sports</h2>
+        <input v-model = "search" style = "width: 150px" placeholder="Search"/>
+            <table class="table">
+                <thead class="thead-light">
+                    <!-- <th>Sport</th> -->
+                    <!-- <th>Seasons</th> -->
+                </thead>
+                <tbody>
+                    <tr v-for = "a in getData">
+                        <td>{{a}}</td>
+                        <!-- <td>{{separateSeasons(a)}}</td> -->
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src = "https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+<script src = "script.js"></script>
